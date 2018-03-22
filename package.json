@@ -1,0 +1,17 @@
+{
+  "name": "com.phonegap.helloworld",
+  "version": "1.0.0",
+  "displayName": "helloworld",
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {
+      "manateeworks-barcodescanner-v3": {}
+    }
+  },
+  "dependencies": {
+    "cordova-android": "~7.0.0",
+    "manateeworks-barcodescanner-v3": "^3.0.49"
+  }
+}
