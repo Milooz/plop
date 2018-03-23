@@ -1124,6 +1124,7 @@ var Scanner = function(){
   */
 
   Scanner.prototype.loadSettings =function(settings){
+	  alert('bob')
     var that = this;
     return new window.Promise(function(resolve,reject){
         if(Array.isArray(settings)){
